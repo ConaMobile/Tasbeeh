@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/item_color"
+                android:backgroundTint="#3D3E50"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:src="@drawable/ripple_drawable"
+                app:shapeAppearanceOverlay="@style/rounded_corner"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/company_img"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:padding="2dp"
+                android:src="@drawable/company_png"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/secular_one"
+                android:includeFontPadding="false"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="2"
+                android:paddingHorizontal="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:text="Company: Cona Mobile"
+                android:textColor="@color/yellow"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@id/company_img"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/item_color"
+                android:backgroundTint="#3D3E50"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:src="@drawable/ripple_drawable"
+                app:shapeAppearanceOverlay="@style/rounded_corner"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_png3"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:src="@drawable/email_png"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/secular_one"
+                android:includeFontPadding="false"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="2"
+                android:paddingHorizontal="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:text="@string/email"
+                android:textColor="@color/yellow"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@id/image_png3"
+                app:layout_constraintRight_toLeftOf="@id/image_png0"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_png0"
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:src="@drawable/link_png"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/item_color"
+                android:backgroundTint="#3D3E50"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:src="@drawable/ripple_drawable"
+                app:shapeAppearanceOverlay="@style/rounded_corner"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_png2"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:src="@drawable/telegram_png"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/secular_one"
+                android:includeFontPadding="false"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="2"
+                android:paddingHorizontal="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:text="@string/cona_mobile2"
+                android:textColor="@color/yellow"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@id/image_png2"
+                app:layout_constraintRight_toLeftOf="@id/image_png1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_png1"
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:src="@drawable/link_png"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/item_color"
+                android:backgroundTint="#3D3E50"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:src="@drawable/ripple_drawable"
+                app:shapeAppearanceOverlay="@style/rounded_corner"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_png4"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:src="@drawable/linkedin_png"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/secular_one"
+                android:includeFontPadding="false"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="2"
+                android:paddingHorizontal="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:text="@string/fio"
+                android:textColor="@color/yellow"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@id/image_png4"
+                app:layout_constraintRight_toLeftOf="@id/image_png5"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_png5"
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:src="@drawable/link_png"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/card5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/item_color"
+                android:backgroundTint="#3D3E50"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:src="@drawable/ripple_drawable"
+                app:shapeAppearanceOverlay="@style/rounded_corner"
+                tools:ignore="UnusedAttribute" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_png6"
+                android:layout_width="50dp"
+                android:layout_height="50sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:src="@drawable/github_png"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/secular_one"
+                android:includeFontPadding="false"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="2"
+                android:paddingHorizontal="10dp"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:text="@string/cona_mobile"
+                android:textColor="@color/yellow"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintLeft_toRightOf="@id/image_png6"
+                app:layout_constraintRight_toLeftOf="@id/image_png7"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/image_png7"
+                android:layout_width="40dp"
+                android:layout_height="40sp"
+                android:layout_marginStart="15dp"
+                android:clickable="false"
+                android:src="@drawable/link_png"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

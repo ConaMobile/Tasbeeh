@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Тасбеҳ</string>
+    <string name="welcome">Хуш келибсиз!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_33">/33</string>
+    <string name="cancel">Йўқ</string>
+    <string name="yes">Ҳа</string>
+    <string name="exit">Дастурдан чиқишни ҳоҳлайсизми?</string>
+    <string name="restart">Қайтадан бошлашни ҳоҳлайсизми?</string>
+    <string name="count">Жами: 0</string>
+    <string name="message">Дастурдан чиқсангиз ҳам айтган саловатларингиз сони сақланиб қолади!</string>
+    <string name="message2">Барча ёзилган саловатлар сони ўчиб кетади ва қайтадан бошланади!</string>
+    <string name="subhanalloh">Субҳаналлоҳ</string>
+    <string name="cona_mobile">Cona Mobile</string>
+    <string name="back_image_replace">Orqa fondagi rasmni almashtirish</string>
+    <string name="email">conamobiledev@gmail.com</string>
+    <string name="cona_mobile2">@Cona Mobile</string>
+    <string name="fio">Nurmuhammad Obidjonov</string>
+    <string name="other_apps">Boshqa ilovalar</string>
+</resources>
